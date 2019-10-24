@@ -1,0 +1,11 @@
+.inner {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pwd p, .mail p, .usr p {
+  text-align-last: left;
+  font-weight: bold;
+}
+

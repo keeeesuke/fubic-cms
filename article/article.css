@@ -1,0 +1,85 @@
+.pwd p, .mail p {
+  text-align-last: left;
+  font-weight: bold;
+}
+
+.my-parts {
+  display: inline-block;
+  text-decoration: none;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.my-parts .my-parts-img {
+  text-align: center;
+}
+
+.my-parts .my-parts-img img {
+  vertical-align: bottom;
+  margin: 0;
+  width: 100%;
+}
+
+.my-parts .my-parts-body {
+  padding: 20px;
+}
+
+.my-parts .my-parts-body time {
+  color: #666;
+  font-size: 15px;
+}
+
+.my-parts .my-parts-title {
+  font-size: 2em;
+  color: #333;
+  margin: 20px 0;
+}
+
+.my-parts .my-parts-body p {
+  font-size: .95em;
+  color: #666;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align-last: left;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.delete-btn, .edit-btn {
+  display: inline-block;
+}
+
+.return-btn {
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  color: #1B9CFC;
+  background: #fff;
+  cursor: pointer;
+}
+
